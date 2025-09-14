@@ -1,0 +1,36 @@
+Git Workflow for Task App Project
+
+Initial Setup:
+
+1. git init
+2. git add .
+3. git commit -m "Initial commit"
+4. git remote add origin https://github.com/kaguaryan/IAP-assignment.git
+5. git branch -M master
+6. git push -u origin master
+
+Development Commits:
+
+git add db.php
+git commit -m "Add database connection"
+
+git add mail.php
+git commit -m "Add email validation and sending"
+
+git add index.php
+git commit -m "Add registration form and numbered user list"
+
+git add git_workflow.txt
+git commit -m "Add git workflow file"
+
+git push origin master
+
+Commands Used:
+
+- git init
+- git add
+- git commit
+- git remote add origin
+- git push
+- git status
+- git log
