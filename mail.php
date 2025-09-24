@@ -24,7 +24,7 @@ if(isset($_POST['name']) && isset($_POST['email'])) {
         $mail->SMTPSecure = 'tls';
         $mail->Port       = 587;
 
-        $mail->setFrom('ryankagua@gmail.com', 'Task App');
+        $mail->setFrom('ryankagua@gmail.com', 'Ryan Kagua');
         $mail->addAddress($email, $name);
 
         $mail->isHTML(true);
@@ -35,7 +35,7 @@ if(isset($_POST['name']) && isset($_POST['email'])) {
 <h2>Welcome to ICS 2.2!</h2>
 <p>Hello " . htmlspecialchars($name) . ",</p>
 <p>You requested an account on ICS 2.2</p>
-<p><a href='http://localhost/index.php'>Click Here to complete registration.</a></p>
+<p><a href='http://localhost/TaskApp/index.php'>Click Here to complete registration.</a></p>
 <p>Regards,<br>Systems Admin ICS 2.2</p>
 </body>
 </html>
